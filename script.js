@@ -8,12 +8,12 @@ $(function() {
     });
 });
 
-// Highlight the top nav as scrolling occurs
+// Выделение навигации при прокрутке
 $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
 
-// Closes the Responsive Menu on Menu Item Click
+// Закрывает адаптивное меню при нажатии пункта меню
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
